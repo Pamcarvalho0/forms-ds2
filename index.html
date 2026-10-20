@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Oficina Codeverse</title>
+        <link rel="stylesheet" href="css/style.css" >
+    </head>
+    <body>
+        <header>
+            <section>
+                <h1>Oficina Codeverse</h1>
+                <p>Inscreva-se para participar da próximo missão.</p>
+            </section>
+        </header>
+        <main>
+            <section id="forms">
+                <form action="#" method="get">
+                    <h2>Faça sua inscrição</h2>
+                    <label for="name">Nome do héroi:</label>
+                    <input id="name" name="name" type="text">
+
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="text">
+
+                    <label for="idade">Idade:</label>
+                    <input id="idade" name="idade" type="number">
+
+                    <label for="equipe">Escolha sua equipe:</label>
+                    <select id="equipe" name="equipe">
+                        <option>Escolha sua equipe</option>
+                        <option>Vingadores</option>
+                        <option>Liga da Justiça</option>
+                        <option>Os Guardiões da Galaxia</option>
+                    </select>
+                    <section id="opcoes">
+                    <p><strong>Qual poder você prefere?</strong></p>
+                        
+                    <section class="opcao">
+                        <input id="voar" nome="voar" type="radio">
+                        <label for="voar">Voar</label>
+                    </section>
+                    <section class="opcao">
+                        <input id="velocidade" nome="velocidade" type="radio">
+                        <label for="velocidade">Supervelocidade</label>
+                    </section>
+                    <section class="opcao">
+                        <input id="aura" nome="aura" type="radio">
+                        <label for="aura">Aura Suprema</label>
+                    </section>
+                    </section>
+                    <section class="missoes-pai">
+                        <input id="missoes" nome="missoes" type="checkbox">
+                        <label for="missoes">Quero receber novas missões</label>
+                    </section>
+                    
+                    <label for="descricao"><strong>Por que você quer ser um héroi?</strong></label>
+                    <textarea id="descricao" name="descricao" rows="4"></textarea>
+
+                    <button type="submit">Enviar inscrição</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Práticas de formulários HTML.</p>
+        </footer>
+    </body>
+</html>
